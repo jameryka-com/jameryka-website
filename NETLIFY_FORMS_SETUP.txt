@@ -1,0 +1,12 @@
+NETLIFY FORMS SETUP (JAMERYKA)
+
+This site includes two Netlify Forms:
+1) contact  (page: /contact)
+2) schedule-request (page: /schedule)
+
+After deploying to Netlify:
+1) Go to your Netlify site dashboard.
+2) Click Forms.
+3) Click each form (contact, schedule-request).
+4) Settings → Notifications → Add notification → Email.
+5) Send to: jcc@jameryka.com

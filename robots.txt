@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /portal/
+Disallow: /broker-staff-library/
+Disallow: /client-education-vault/
+Disallow: /internal-sops/
+Disallow: /admin/
+Disallow: /staff/
+Disallow: /*?*
+
+Sitemap: https://jameryka.com/sitemap.xml

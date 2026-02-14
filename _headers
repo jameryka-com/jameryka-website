@@ -1,0 +1,11 @@
+/portal/*
+  X-Robots-Tag: noindex, nofollow
+
+/broker-staff-library/*
+  X-Robots-Tag: noindex, nofollow
+
+/client-education-vault/*
+  X-Robots-Tag: noindex, nofollow
+
+/internal-sops/*
+  X-Robots-Tag: noindex, nofollow
