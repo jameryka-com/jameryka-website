@@ -16,7 +16,28 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&amp;family=Open+Sans:wght@400;600;700&amp;family=Playfair+Display:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="assets/styles.css" rel="stylesheet"/>
-<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><link href="/assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="/assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><meta content="JAMERYKA" property="og:site_name"/><meta content="https://jameryka.com/who-we-serve" property="og:url"/><meta content="https://jameryka.com/assets/og-image.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Who We Serve | Individuals, Seniors &amp; Professionals | JAMERYKA" name="twitter:title"/><meta content="JAMERYKA provides insurance education and support for individuals, families, seniors, insurance professionals, and healthcare staff." name="twitter:description"/><meta content="https://jameryka.com/assets/og-image.png" name="twitter:image"/></head>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><link href="/assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="/assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><meta content="JAMERYKA" property="og:site_name"/><meta content="https://jameryka.com/who-we-serve" property="og:url"/><meta content="https://jameryka.com/assets/og-image.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Who We Serve | Individuals, Seniors &amp; Professionals | JAMERYKA" name="twitter:title"/><meta content="JAMERYKA provides insurance education and support for individuals, families, seniors, insurance professionals, and healthcare staff." name="twitter:description"/><meta content="https://jameryka.com/assets/og-image.png" name="twitter:image"/><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JAMERYKA ClarityCare Coaching & Training, LLC",
+  "url": "https://jameryka.com/",
+  "logo": "https://jameryka.com/assets/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-254-254-5550",
+      "contactType": "customer support",
+      "areaServed": "US",
+      "availableLanguage": [
+        "en",
+        "es"
+      ]
+    }
+  ]
+}
+</script>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="header">
@@ -24,12 +45,12 @@
 <nav aria-label="Primary" class="nav">
 <div class="brand">
 <a aria-label="Go to home" href="index.html">
-<img alt="JAMERYKA / Jameryka ClarityCare logo" src="assets/logo.png"/>
+<img alt="JAMERYKA / Jameryka ClarityCare logo" src="assets/logo.png"/ class="brand__logo" fetchpriority="high">
 </a>
 </div>
 <button aria-controls="site-menu" aria-expanded="false" class="menuToggle" data-menu-toggle="">Menu</button>
 <div class="menu" data-menu="" id="site-menu"><a href="index.html">Home</a><a href="about.html">About JAMERYKA</a><a href="insurance-brokerage.html">Insurance Brokerage</a><a href="training-education.html">Training &amp; Education</a><a aria-current="page" href="who-we-serve.html">Who We Serve</a><a href="resources.html">Resources</a><a href="schedule.html">Schedule</a><a href="contact.html">Contact</a><a href="training-portal.html">Training Portal</a></div>
-<div class="ctaRow"><a class="button primary" href="schedule.html">Request Appointment</a><a class="button" href="training-portal.html">Training Portal</a></div>
+<div class="ctaRow"><a class="button gold" href="contact.html#contact">📞 Get Coverage Help</a></div>
 </nav>
 </div>
 </header>
@@ -40,14 +61,30 @@
         </small>
 </div>
 </div>
-<div class="notice" style="border-top:1px solid rgba(0,0,0,.06); border-bottom:1px solid rgba(0,0,0,.06);">
-<div class="container">
-<small>
-          JAMERYKA provides insurance education, training, and brokerage services. JAMERYKA is not affiliated with or endorsed by Medicare, CMS, or any government agency.
-        </small>
-</div>
-</div>
+
 <main id="main" tabindex="-1">
+<section class="video-feature" aria-label="Featured video">
+  <div class="wrap">
+    <div class="frame">
+      <video autoplay muted loop playsinline poster="/assets/hero-fallback.jpg">
+        <source src="/assets/hero.webm" type="video/webm">
+        <source src="/assets/hero.mp4" type="video/mp4">
+      </video>
+      <div class="overlay">
+        <div class="copy">
+          <div class="eyebrow">JAMERYKA Training & Education</div>
+          <h2>Clarity you can trust — training that empowers.</h2>
+          <p>Explore Medicare education, coaching, and resources built for individuals, families, professionals, and community leaders.</p>
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="contact.html#contact" data-track="cta_contact">Contact</a>
+          <a class="btn ghost" href="schedule.html" data-track="cta_schedule">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
 <div class="container">
 <h1>Who We Serve</h1>
@@ -80,6 +117,7 @@
 <p style="margin:12px 0 0; color: var(--muted);">
           Email: <a href="mailto:jcc@jameryka.com">jcc@jameryka.com</a>
 </p>
+<p style="margin:8px 0 0; color: var(--muted);">Call: <a href="tel:+12542545550">254-254-5550</a></p>
 </div>
 <div>
 <div class="badge">Quick Links</div>
@@ -93,11 +131,7 @@
 </div>
 </div>
 <div class="hr"></div>
-<small>
-<strong>Compliance Notice:</strong>
-      JAMERYKA provides insurance education, training, and brokerage services. JAMERYKA is not affiliated with or endorsed by Medicare, CMS, or any government agency.
-      Information is subject to change and should be verified with official plan documents. Brokerage services are offered only in states where JAMERYKA is properly licensed.
-    </small>
+
 <div class="hr"></div>
 <small>© 2026 JAMERYKA. All rights reserved.</small>
 </div>

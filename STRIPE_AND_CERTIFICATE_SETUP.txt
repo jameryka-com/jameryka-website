@@ -1,0 +1,18 @@
+STRIPE PAYMENT LINK SETUP (Netlify)
+1) Create a Stripe Payment Link (Products > Payment Links) for:
+   - Digital products (one-time)
+   - Coaching session (one-time)
+   - Training deposit or package (one-time)
+2) Replace this placeholder URL across the site:
+   https://buy.stripe.com/REPLACE_WITH_YOUR_PAYMENT_LINK
+   - Found in products.html and services.html.
+
+CERTIFICATES
+- This site is static. To auto-issue certificates you need an automation:
+  Option A (simple): Upload your certificate PDF template to /assets and email it manually to purchasers.
+  Option B (automated): Use Zapier/Make:
+    Trigger: Stripe "payment_link.payment_completed" (or Checkout Session completed)
+    Action: Send email (Gmail/SendGrid/Mailgun) with certificate attachment or link
+  Option C (LMS): Deliver course and certificates through TalentLMS/Kajabi, and keep this site as marketing + checkout.
+
+Recommended: Start with Stripe + Zapier/Make automation, then upgrade to Netlify Functions if you want personalized certificates.

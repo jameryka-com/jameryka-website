@@ -16,7 +16,28 @@
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&amp;family=Open+Sans:wght@400;600;700&amp;family=Playfair+Display:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
 <link href="assets/styles.css" rel="stylesheet"/>
-<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><link href="/assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="/assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><meta content="JAMERYKA" property="og:site_name"/><meta content="https://jameryka.com/services.html" property="og:url"/><meta content="https://jameryka.com/assets/og-image.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Services | JAMERYKA / Jameryka ClarityCare" name="twitter:title"/><meta content="Plan reviews, enrollment support, advocacy coaching, and training workshops." name="twitter:description"/><meta content="https://jameryka.com/assets/og-image.png" name="twitter:image"/></head>
+<link href="/assets/apple-touch-icon.png" rel="apple-touch-icon"/><link href="/assets/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/><link href="/assets/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/><meta content="JAMERYKA" property="og:site_name"/><meta content="https://jameryka.com/services.html" property="og:url"/><meta content="https://jameryka.com/assets/og-image.png" property="og:image"/><meta content="summary_large_image" name="twitter:card"/><meta content="Services | JAMERYKA / Jameryka ClarityCare" name="twitter:title"/><meta content="Plan reviews, enrollment support, advocacy coaching, and training workshops." name="twitter:description"/><meta content="https://jameryka.com/assets/og-image.png" name="twitter:image"/><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "JAMERYKA ClarityCare Coaching & Training, LLC",
+  "url": "https://jameryka.com/",
+  "logo": "https://jameryka.com/assets/logo.png",
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+1-254-254-5550",
+      "contactType": "customer support",
+      "areaServed": "US",
+      "availableLanguage": [
+        "en",
+        "es"
+      ]
+    }
+  ]
+}
+</script>
+</head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="header">
@@ -24,19 +45,53 @@
 <nav aria-label="Primary" class="nav">
 <div class="brand">
 <a aria-label="Go to home" href="index.html">
-<img alt="JAMERYKA / Jameryka ClarityCare logo" src="assets/logo.png"/>
+<img alt="JAMERYKA / Jameryka ClarityCare logo" src="assets/logo.png"/ class="brand__logo" fetchpriority="high">
 </a>
 </div>
 <button aria-controls="site-menu" aria-expanded="false" class="menuToggle" data-menu-toggle="">Menu</button>
 <div class="menu" data-menu="" id="site-menu"><a href="index.html">Home</a><a href="about.html">About JAMERYKA</a><a href="insurance-brokerage.html">Insurance Brokerage</a><a href="training-education.html">Training &amp; Education</a><a href="who-we-serve.html">Who We Serve</a><a href="resources.html">Resources</a><a href="schedule.html">Schedule</a><a href="contact.html">Contact</a><a href="training-portal.html">Training Portal</a></div>
-<div class="ctaRow"><a class="button primary" href="schedule.html">Request Appointment</a><a class="button" href="training-portal.html">Training Portal</a></div>
+<div class="ctaRow"><a class="button gold" href="contact.html#contact">📞 Get Coverage Help</a></div>
 </nav>
 </div>
 </header>
 <main id="main" tabindex="-1">
+<section class="video-feature" aria-label="Featured video">
+  <div class="wrap">
+    <div class="frame">
+      <video autoplay muted loop playsinline poster="/assets/hero-fallback.jpg">
+        <source src="/assets/hero.webm" type="video/webm">
+        <source src="/assets/hero.mp4" type="video/mp4">
+      </video>
+      <div class="overlay">
+        <div class="copy">
+          <div class="eyebrow">JAMERYKA Training & Education</div>
+          <h2>Clarity you can trust — training that empowers.</h2>
+          <p>Explore Medicare education, coaching, and resources built for individuals, families, professionals, and community leaders.</p>
+        </div>
+        <div class="actions">
+          <a class="btn primary" href="contact.html#contact" data-track="cta_contact">Contact</a>
+          <a class="btn ghost" href="schedule.html" data-track="cta_schedule">Schedule</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
 <div class="container">
-<h1>Services</h1>
+<h1>Services</h1><div class="card" style="margin-top:14px;padding:18px;border:1px solid var(--line);border-radius:var(--radius2);background:linear-gradient(135deg, rgba(229,183,90,.12), rgba(122,201,183,.14));">
+  <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;">
+    <div>
+      <div class="eyebrow" style="margin:0 0 6px;color:var(--gold);">Payment + Enrollment</div>
+      <div style="font-weight:800;font-size:18px;color:var(--brand);margin:0 0 4px;">Ready to start?</div>
+      <div style="color:var(--muted);font-size:14px;line-height:1.5;">Use our Stripe checkout link to enroll and receive next-step instructions.</div>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;">
+      <a class="btn" href="https://buy.stripe.com/REPLACE_WITH_YOUR_PAYMENT_LINK" target="_blank" rel="noopener">Pay with Stripe</a>
+      <a class="btn btn--ghost" href="schedule.html">Book a Call</a>
+    </div>
+  </div>
+</div>
 <p class="lead">Brokerage support plus training/coaching programs for long-term confidence.</p>
 <div class="grid3">
 <div class="card">
