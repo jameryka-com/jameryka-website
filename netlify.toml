@@ -1,4 +1,8 @@
 [build]
   publish = "."
 
-# Multi-page static site: routing handled via /_redirects (pretty URLs -> .html)
+# Optional: ensure pretty URLs don't 404 on refresh when using folder routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
